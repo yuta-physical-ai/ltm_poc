@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ltm_poc</name>
+  <version>0.1.0</version>
+  <description>Minimal PoC: YOLO + CLIP + viewer + controller</description>
+  <maintainer email="edayukaraage@gmail.com">Yuta Sakakieda</maintainer>
+  <license>Proprietary</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Core runtime deps used directly by ltm_poc -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>vision_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>camera_info_manager</depend>
+
+  <!-- Tools / viewers used at runtime -->
+  <exec_depend>turtlesim</exec_depend>
+  <exec_depend>image_view</exec_depend>
+  <exec_depend>compressed_image_transport</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
