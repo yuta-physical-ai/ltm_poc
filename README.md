@@ -68,7 +68,7 @@ source install/setup.bash
 
 ### 3. 実行
 ```bash
-ros2 launch ltm_poc ltm_poc_demo.py target_text:="red bottle"
+ros2 launch ltm_poc ltm_poc_demo.launch.py target_text:="red bottle"
 ```
 
 ---
