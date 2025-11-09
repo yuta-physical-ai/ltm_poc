@@ -1,0 +1,67 @@
+# ===============================
+# ROS2 / colcon build artifacts
+# ===============================
+build/
+install/
+log/
+logs/
+.colcon/
+ament_cmake_core/
+build_isolated/
+devel_isolated/
+install_isolated/
+
+# ===============================
+# Python cache / virtualenv
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.so
+dist/
+.venv/
+venv/
+env/
+
+# ===============================
+# Editor / System files
+# ===============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ===============================
+# Image / Video / Data files
+# ===============================
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.mp4
+*.avi
+
+# keep only specific sample and doc images
+!data/sample_scene.jpg
+!docs/*.png
+!docs/*.jpg
+
+# ===============================
+# Temporary / Logs
+# ===============================
+*.log
+*.tmp
+*.bak
+
+# ===============================
+# Jetson / NVIDIA specific
+# ===============================
+*.nvs
+*.nvlog
+nvlog/
+.cache/
